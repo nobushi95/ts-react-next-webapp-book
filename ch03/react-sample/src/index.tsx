@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { ContainerSample } from './components/ContainerSample';
 import { Hello } from './components/Hello';
 import { Message } from './components/Message';
 import { Name } from './components/Name';
@@ -16,6 +17,7 @@ root.render(
     <Hello />
     <Name />
     <Message />
+    <ContainerSample />
   </React.StrictMode>
 );
 
