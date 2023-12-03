@@ -1,4 +1,9 @@
-const Container = (props: { title: string; children: React.ReactElement }) => {
+type ContainerProps = {
+  title: string;
+  children: React.ReactElement;
+};
+
+const Container = (props: ContainerProps): JSX.Element => {
   const { title, children } = props;
   return (
     <div style={{ background: 'red' }}>
@@ -8,7 +13,7 @@ const Container = (props: { title: string; children: React.ReactElement }) => {
   );
 };
 
-export const ContainerSample = () => {
+export const ContainerSample = (): JSX.Element => {
   return (
     <Container title="hello">
       <p>ここの部分が背景色で囲まれます</p>
