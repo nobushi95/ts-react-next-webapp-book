@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Hello from './components/Hello';
+import { Hello } from './components/Hello';
+import { Name } from './components/Name';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Hello />
+    <Name />
   </React.StrictMode>
 );
 
