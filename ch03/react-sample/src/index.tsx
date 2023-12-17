@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { ContainerSample } from './components/ContainerSample';
 import { ContextSample } from './components/ContextSample';
+import { CounterUseReducer } from './components/CounterUseReducer';
 import { CounterUseState } from './components/CounterUseState';
 import { Hello } from './components/Hello';
 import { Message } from './components/Message';
@@ -22,6 +23,7 @@ root.render(
     <ContainerSample />
     <ContextSample />
     <CounterUseState initialValue={0} />
+    <CounterUseReducer initialValue={0} />
   </React.StrictMode>
 );
 
