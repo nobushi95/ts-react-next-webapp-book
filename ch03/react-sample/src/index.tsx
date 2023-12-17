@@ -8,6 +8,7 @@ import { CounterUseState } from './components/CounterUseState';
 import { Hello } from './components/Hello';
 import { Message } from './components/Message';
 import { Name } from './components/Name';
+import { ParentButtonsWithUseCallback } from './components/ParentButtonsWithUseCallback';
 import { ParentMemoComponent } from './components/ParentMemoComponent';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -26,6 +27,7 @@ root.render(
     <CounterUseState initialValue={0} />
     <CounterUseReducer initialValue={0} />
     <ParentMemoComponent />
+    <ParentButtonsWithUseCallback />
   </React.StrictMode>
 );
 
