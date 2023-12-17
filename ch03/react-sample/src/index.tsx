@@ -10,6 +10,7 @@ import { Message } from './components/Message';
 import { Name } from './components/Name';
 import { ParentButtonsWithUseCallback } from './components/ParentButtonsWithUseCallback';
 import { ParentMemoComponent } from './components/ParentMemoComponent';
+import { UseMemoSample } from './components/UseMemoSample';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -28,6 +29,7 @@ root.render(
     <CounterUseReducer initialValue={0} />
     <ParentMemoComponent />
     <ParentButtonsWithUseCallback />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
