@@ -8,6 +8,7 @@ import { CounterUseReducer } from './components/CounterUseReducer';
 import { CounterUseState } from './components/CounterUseState';
 import { Hello } from './components/Hello';
 import { ImageUploader } from './components/ImageUploader';
+import { Input } from './components/Input';
 import { Message } from './components/Message';
 import { Name } from './components/Name';
 import { ParentButtonsWithUseCallback } from './components/ParentButtonsWithUseCallback';
@@ -38,6 +39,7 @@ root.render(
     <ParentWithUseContext />
     <ImageUploader />
     <ParentWithUseImperativeHandle />
+    <Input />
   </React.StrictMode>
 );
 
