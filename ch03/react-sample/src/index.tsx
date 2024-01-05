@@ -13,6 +13,7 @@ import { Name } from './components/Name';
 import { ParentButtonsWithUseCallback } from './components/ParentButtonsWithUseCallback';
 import { ParentMemoComponent } from './components/ParentMemoComponent';
 import { ParentWithUseContext } from './components/ParentWithUseContext';
+import { ParentWithUseImperativeHandle } from './components/ParentWithUseImperativeHandle';
 import { UseMemoSample } from './components/UseMemoSample';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -36,6 +37,7 @@ root.render(
     <Clock />
     <ParentWithUseContext />
     <ImageUploader />
+    <ParentWithUseImperativeHandle />
   </React.StrictMode>
 );
 
