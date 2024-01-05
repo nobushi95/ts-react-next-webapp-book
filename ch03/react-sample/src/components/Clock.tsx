@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 
 const UPDATE_CYCLE = 1000;
 
@@ -37,16 +37,16 @@ export const Clock = () => {
     };
   }, []);
 
-  useEffect(() => {
-    console.log('setLocale');
+  useLayoutEffect(() => {
     const savedLocale = localStorage.getItem(KEY_LOCALE);
     if (savedLocale !== null) {
+      console.log(`setLocale ${savedLocale}`);
       setLocale(getLocaleFromString(savedLocale));
     }
   }, []);
 
   useEffect(() => {
-    console.log('localStorage.setItem');
+    console.log(`localStorage.setItem ${locale}`);
     localStorage.setItem(KEY_LOCALE, locale);
   }, [locale]);
 
