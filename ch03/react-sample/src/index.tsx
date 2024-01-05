@@ -7,6 +7,7 @@ import { ContextSample } from './components/ContextSample';
 import { CounterUseReducer } from './components/CounterUseReducer';
 import { CounterUseState } from './components/CounterUseState';
 import { Hello } from './components/Hello';
+import { ImageUploader } from './components/ImageUploader';
 import { Message } from './components/Message';
 import { Name } from './components/Name';
 import { ParentButtonsWithUseCallback } from './components/ParentButtonsWithUseCallback';
@@ -34,6 +35,7 @@ root.render(
     <UseMemoSample />
     <Clock />
     <ParentWithUseContext />
+    <ImageUploader />
   </React.StrictMode>
 );
 
