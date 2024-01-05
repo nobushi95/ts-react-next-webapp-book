@@ -11,6 +11,7 @@ import { Message } from './components/Message';
 import { Name } from './components/Name';
 import { ParentButtonsWithUseCallback } from './components/ParentButtonsWithUseCallback';
 import { ParentMemoComponent } from './components/ParentMemoComponent';
+import { ParentWithUseContext } from './components/ParentWithUseContext';
 import { UseMemoSample } from './components/UseMemoSample';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -32,6 +33,7 @@ root.render(
     <ParentButtonsWithUseCallback />
     <UseMemoSample />
     <Clock />
+    <ParentWithUseContext />
   </React.StrictMode>
 );
 
