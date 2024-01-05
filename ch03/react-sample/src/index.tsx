@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import { Clock } from './components/Clock';
 import { ContainerSample } from './components/ContainerSample';
 import { ContextSample } from './components/ContextSample';
 import { CounterUseReducer } from './components/CounterUseReducer';
@@ -30,6 +31,7 @@ root.render(
     <ParentMemoComponent />
     <ParentButtonsWithUseCallback />
     <UseMemoSample />
+    <Clock />
   </React.StrictMode>
 );
 
