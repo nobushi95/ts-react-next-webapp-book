@@ -19,7 +19,7 @@ const Post: NextPage<PostProps> = (props) => {
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.cio" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <p>このページは静的サイト生成によってビルド時に生成されたページです</p>
