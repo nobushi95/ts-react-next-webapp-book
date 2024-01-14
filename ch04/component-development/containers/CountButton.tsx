@@ -35,6 +35,8 @@ export const CountButton = (props: CountButtonProps) => {
     ? "Can't click any more"
     : `You've clicked ${count} times`;
 
+  console.log('render CountButton');
+
   return (
     <Button disabled={disabled} onClick={onClick} label={label} text={text} />
   );

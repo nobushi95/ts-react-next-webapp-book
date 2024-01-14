@@ -16,7 +16,7 @@ const CountButtonTest: NextPage<CountButtonTestProps> = (props) => {
     return <div>Loading...</div>;
   }
 
-  console.log('render ButtonTest page');
+  console.log('render CountButtonTest page');
 
   return (
     <div>
