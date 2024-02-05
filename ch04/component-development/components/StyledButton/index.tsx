@@ -24,6 +24,7 @@ type StyledButtonStyleProps = {
 
 type StyledButtonDataProps = {
   text: string;
+  onClick?: () => void;
 };
 
 export type StyledButtonProps = StyledButtonStyleProps & StyledButtonDataProps;
@@ -51,6 +52,10 @@ const StyledButtonStyle = styled.button<StyledButtonStyleProps>`
 `;
 
 export const StyledButton = (props: StyledButtonProps) => {
-  const { variant, text } = props;
-  return <StyledButtonStyle variant={variant}>{text}</StyledButtonStyle>;
+  const { variant, text, onClick } = props;
+  return (
+    <StyledButtonStyle variant={variant} onClick={onClick}>
+      {text}
+    </StyledButtonStyle>
+  );
 };

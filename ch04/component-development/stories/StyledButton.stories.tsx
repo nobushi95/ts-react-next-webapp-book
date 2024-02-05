@@ -4,10 +4,11 @@ import { StyledButton } from '../components/StyledButton';
 const meta = {
   title: 'StyledButton',
   component: StyledButton,
+  argTypes: { onClick: { action: 'clicked' } },
 } satisfies Meta<typeof StyledButton>;
 
 export default meta;
-type Story = StoryObj<typeof StyledButton>;
+type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
