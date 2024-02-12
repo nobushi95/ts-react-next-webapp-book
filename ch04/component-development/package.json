@@ -27,6 +27,8 @@
     "@storybook/nextjs": "^7.6.12",
     "@storybook/react": "^7.6.12",
     "@storybook/test": "^7.6.12",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@types/eslint": "~8.56.2",
     "@types/node": "^16.4.10",
     "@types/react": "~17.0.74",
@@ -35,6 +37,8 @@
     "eslint": "8.56.0",
     "eslint-config-next": "^12.3.4",
     "eslint-plugin-storybook": "^0.6.15",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^29.7.0",
     "storybook": "^7.6.12",
     "typescript": "5.3.3"
   },
