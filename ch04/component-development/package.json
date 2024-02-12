@@ -39,7 +39,7 @@
     "eslint-config-next": "^12.3.4",
     "eslint-plugin-storybook": "^0.6.15",
     "jest": "^27.5.1",
-    "jest-environment-jsdom": "^29.7.0",
+    "jest-environment-jsdom": "^27.5.1",
     "storybook": "^7.6.12",
     "typescript": "5.3.3"
   },
